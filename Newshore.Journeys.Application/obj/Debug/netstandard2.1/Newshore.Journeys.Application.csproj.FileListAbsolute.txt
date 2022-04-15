@@ -1,0 +1,5 @@
+C:\NewShore\NewshoreJourneys.Domain\Newshore.Journeys.Application\obj\Debug\netstandard2.1\Newshore.Journeys.Application.csproj.AssemblyReference.cache
+C:\NewShore\NewshoreJourneys.Domain\Newshore.Journeys.Application\obj\Debug\netstandard2.1\Newshore.Journeys.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\NewShore\NewshoreJourneys.Domain\Newshore.Journeys.Application\obj\Debug\netstandard2.1\Newshore.Journeys.Application.AssemblyInfoInputs.cache
+C:\NewShore\NewshoreJourneys.Domain\Newshore.Journeys.Application\obj\Debug\netstandard2.1\Newshore.Journeys.Application.AssemblyInfo.cs
+C:\NewShore\NewshoreJourneys.Domain\Newshore.Journeys.Application\obj\Debug\netstandard2.1\Newshore.Journeys.Application.csproj.CoreCompileInputs.cache

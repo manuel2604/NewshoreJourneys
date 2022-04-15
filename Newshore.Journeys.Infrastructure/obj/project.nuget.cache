@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i0NKw3+rOTj4y4XdxQxN28uLj+pXrlRyQIMnf18KOx8JGAmv7P4aHdGa0LNfmnXSjXF1I5sN8DJU7AUcmYb9uA==",
+  "success": true,
+  "projectFilePath": "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Infrastructure\\Newshore.Journeys.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\desar\\.nuget\\packages\\litedb\\5.0.11\\litedb.5.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

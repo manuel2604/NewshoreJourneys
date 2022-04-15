@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "LiteDB/5.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
+      "Newshore.Journeys.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "LiteDB": "5.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Newshore.Journeys.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Newshore.Journeys.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteDB/5.0.11": {
+      "sha512": "6cL4bOmVCUB0gIK+6qIr68HeqjjHZicPDGQjvJ87mIOvkFsEsJWkIps3yoKNeLpHhJQur++yoQ9Q8gxsdos0xQ==",
+      "type": "package",
+      "path": "litedb/5.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.11.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
+    "Newshore.Journeys.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Newshore.Journeys.Domain/Newshore.Journeys.Domain.csproj",
+      "msbuildProject": "../Newshore.Journeys.Domain/Newshore.Journeys.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Newshore.Journeys.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\desar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Infrastructure\\Newshore.Journeys.Infrastructure.csproj",
+      "projectName": "Newshore.Journeys.Infrastructure",
+      "projectPath": "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Infrastructure\\Newshore.Journeys.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\desar\\.nuget\\packages\\",
+      "outputPath": "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\desar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Domain\\Newshore.Journeys.Domain.csproj": {
+              "projectPath": "C:\\NewShore\\NewshoreJourneys.Domain\\Newshore.Journeys.Domain\\Newshore.Journeys.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
